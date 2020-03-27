@@ -44,6 +44,7 @@ if get_user_input != "h" or "s"
   get_user_input
 end
 
+card_total
 end
 
 def invalid_command
