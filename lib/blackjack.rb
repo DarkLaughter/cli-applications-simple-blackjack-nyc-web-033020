@@ -37,7 +37,7 @@ if get_user_input == "h"
 end
 
 if get_user_input != "h" or "s"
-  puts "Please enter a valid command"
+  invalid_command
   prompt_user
   get_user_input
 end
