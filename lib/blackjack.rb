@@ -29,6 +29,7 @@ def initial_round
 end
 
 def hit?(card_total)
+invalid_command
 prompt_user
 get_user_input
 if get_user_input == "h"
